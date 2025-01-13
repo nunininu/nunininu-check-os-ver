@@ -17,3 +17,9 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/nunininu/nunininu-check-os-ver"
+Issues = "https://github.com/nunininu/nunininu-check-os-ver/issues"
+
+
