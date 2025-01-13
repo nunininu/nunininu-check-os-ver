@@ -1,6 +1,6 @@
 # nunininu-check-os-ver
  - Detects and outputs the os version. 
-
+ 
 ### Development environment setting
 ```bash
 $ install pdm
