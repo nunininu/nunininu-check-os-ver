@@ -56,5 +56,5 @@ def random_pick():
                   hi7
                   ]
 
- random.choice(ascii_arts)()
+    random.choice(ascii_arts)()
 
