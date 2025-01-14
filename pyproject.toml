@@ -1,6 +1,6 @@
 [project]
 name = "nunininu-check-os-ver"
-version = "0.2.1"
+version = "0.3.0"
 description = "Default template for PDM package"
 authors = [
     {name = "nunininu", email = "sgcho0907@gmail.com"},
@@ -32,5 +32,8 @@ Issues = "https://github.com/nunininu/nunininu-check-os-ver/issues"
 
 [project.scripts]
 nunininu-hi = "nunininu_check_os_ver.hi:hi"
+<<<<<<< HEAD
 nunininu-random = "nunininu_check_os_ver.hi:random_pick"
 
+=======
+>>>>>>> d04ef39a190b05d3d21c2d95a43635b2c0b0990c

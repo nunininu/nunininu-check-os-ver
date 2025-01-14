@@ -43,6 +43,7 @@ def hi():
     print(art)
 
 
+<<<<<<< HEAD
 def random_pick() 
     from stundrg_check_os_ver.hi import hi
     from cho_check_os_ver.hi  import hi
@@ -53,4 +54,7 @@ def random_pick()
     from hj_check_os_version .hi import hi
     print("코드를 완성해 보세요")
 
+=======
+import  
+>>>>>>> d04ef39a190b05d3d21c2d95a43635b2c0b0990c
 
