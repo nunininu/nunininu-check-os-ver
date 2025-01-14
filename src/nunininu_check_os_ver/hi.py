@@ -42,7 +42,7 @@ def random_pick():
     from check_os_ver.hi import hi as hi4
     from seo_check_os_ver.hi import hi as hi5
     from jacob_os_version_check.hi import hi as hi6
-    from hj_check_os_version .hi import hi as hi7
+    from hj_check_os_version.hi import hi as hi7
     
     import random
 
