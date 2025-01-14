@@ -1,0 +1,24 @@
+[project]
+name = "nunininu-check-os-ver"
+version = "0.2.1"
+description = "Default template for PDM package"
+authors = [
+    {name = "nunininu", email = "sgcho0907@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[project.urls]
+Homepage = "https://github.com/nunininu/nunininu-check-os-ver"
+Issues = "https://github.com/nunininu/nunininu-check-os-ver/issues"
+
