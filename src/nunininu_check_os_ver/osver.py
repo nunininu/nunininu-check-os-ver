@@ -1,5 +1,5 @@
 
-def get_os_pretty_name(): -> str: 
+def get_os_pretty_name() -> str: 
     with open('/etc/os-release', 'r') as file:
         for line in file:
             if line.startswith('PRETTY_NAME'):
