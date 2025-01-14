@@ -36,12 +36,25 @@ def hi():
 
 
 def random_pick():
-    from stundrg_check_os_ver.hi import hi
-    from cho_check_os_ver.hi  import hi
-    from lucas_check_os_ver.hi import hi
-    from check_os_ver.hi import hi
-    from seo_check_os_ver.hi import hi
-    from jacob_os_version_check.hi import hi
-    from hj_check_os_version .hi import hi
-    print("코드를 완성해 보세요")
+    from stundrg_check_os_ver.hi import hi as hi1
+    from cho_check_os_ver.hi  import hi as hi2
+    from lucas_check_os_ver.hi import hi as hi3
+    from check_os_ver.hi import hi as hi4
+    from seo_check_os_ver.hi import hi as hi5
+    from jacob_os_version_check.hi import hi as hi6
+    from hj_check_os_version .hi import hi as hi7
+    
+    import random
+
+    ascii_arts = [ 
+                  hi1,
+                  hi2,
+                  hi3,
+                  hi4,
+                  hi5,
+                  hi6,
+                  hi7
+                  ]
+
+ random.choice(ascii_arts)()
 
