@@ -1,6 +1,6 @@
 [project]
 name = "nunininu-check-os-ver"
-version = "0.2.0"
+version = "0.2.1"
 description = "Default template for PDM package"
 authors = [
     {name = "nunininu", email = "sgcho0907@gmail.com"},
@@ -21,5 +21,4 @@ distribution = true
 [project.urls]
 Homepage = "https://github.com/nunininu/nunininu-check-os-ver"
 Issues = "https://github.com/nunininu/nunininu-check-os-ver/issues"
-
 
