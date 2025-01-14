@@ -39,4 +39,5 @@ nunininu-os-ver = "nunininu_check_os_ver.osver:get_os_pretty_name"
 [dependency-groups]
 test = [
     "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
 ]
