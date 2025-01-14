@@ -58,3 +58,4 @@ def random_pick():
 
     random.choice(ascii_arts)()
 
+
