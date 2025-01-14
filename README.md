@@ -19,7 +19,8 @@ $ pip install
 $ git add <file_name>
 $ git commit -a
 $ git push
-$ pdm publish
+$ pdm publish 
+Username: __token__
 ```
 
 ```
@@ -31,3 +32,10 @@ $ python
 >>> from nunininu_check_os_ver.hi import hi
 >>> hi()
 ```
+
+
+```
+### REF
+
+[console_script]
+nunininu-hi = "nunininu_check_os_ver.hi:hi"
