@@ -19,23 +19,23 @@ $ pip install
 $ git add <file_name>
 $ git commit -a
 $ git push
-$ pdm publish 
+$ pdm publish
 Username: __token__
-```
-
+# PR - Merge
+# Tag - Release
 ```
 
 ### USE
-```python
+``` 
 $ pip install nunininu-check-os-ver
 $ python
 >>> from nunininu_check_os_ver.hi import hi
 >>> hi()
 ```
 
-
-```
 ### REF
-
-[console_script]
-nunininu-hi = "nunininu_check_os_ver.hi:hi"
+```
+- https://pdm-project.org/en/latest/
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- [console_scripts](https://packaging.python.org/en/latest/specifications/entry-points/#entry-points-specification)
+```
