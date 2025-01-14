@@ -1,6 +1,6 @@
 [project]
 name = "nunininu-check-os-ver"
-version = "0.3.3.2"
+version = "0.4.0"
 description = "Default template for PDM package"
 authors = [
     {name = "nunininu", email = "sgcho0907@gmail.com"},
@@ -33,3 +33,10 @@ Issues = "https://github.com/nunininu/nunininu-check-os-ver/issues"
 [project.scripts]
 nunininu-hi = "nunininu_check_os_ver.hi:hi"
 nunininu-random = "nunininu_check_os_ver.hi:random_pick"
+nunininu-os-ver = "nunininu_check_os_ver.osver:get_os_pretty_name"
+
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+]

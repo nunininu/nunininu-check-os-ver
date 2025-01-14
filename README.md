@@ -25,6 +25,15 @@ Username: __token__
 # Tag - Release
 ```
 
+### Test
+ - https://docs.pytest.org/en/stable/
+```bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov
+```
+
 ### USE
 ``` 
 $ pip install nunininu-check-os-ver
