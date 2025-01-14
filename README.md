@@ -23,8 +23,6 @@ $ pdm publish
 Username: __token__
 # PR - Merge
 # Tag - Release
-$ pdm publish 
-Username: __token__
 ```
 
 ### USE
@@ -37,11 +35,7 @@ $ python
 
 ### REF
 ```
-[project.urls]
-Homepage = "https://github.com/nunininu/nunininu-check-os-ver"
-Issues = "https://github.com/nunininu/nunininu-check-os-ver/issues"
-
-[console_script]
-nunininu-hi = "nunininu_check_os_ver.hi:hi"
-nunininu-random = "nunininu_check_os_ver.hi:random_pick"
+- https://pdm-project.org/en/latest/
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- [console_scripts](https://packaging.python.org/en/latest/specifications/entry-points/#entry-points-specification)
 ```
