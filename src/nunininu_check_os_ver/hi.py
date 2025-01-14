@@ -35,7 +35,7 @@ def hi():
     print(art)
 
 
-def random_pick() 
+def random_pick():
     from stundrg_check_os_ver.hi import hi
     from cho_check_os_ver.hi  import hi
     from lucas_check_os_ver.hi import hi
